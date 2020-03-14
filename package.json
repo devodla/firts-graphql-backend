@@ -1,7 +1,7 @@
 {
   "name": "firts-graphql-backend",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "src/server.js",
   "author": "Reynaldo Layme <layme.reynaldo@icloud.com>",
   "license": "MIT",
   "devDependencies": {
@@ -20,5 +20,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
   }
 }
